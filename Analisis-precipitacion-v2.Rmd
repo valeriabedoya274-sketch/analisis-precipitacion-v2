@@ -1,0 +1,27 @@
+---
+title: "Analisis-precipitacion-v2"
+author: "valeria bedoya"
+date: "2025-09-24"
+output: html_document
+---
+
+ANÁLISIS DE PRECIPITACIÓN - INGENIERÍA
+------------------------------------
+# 1. Cargar librerías
+Si no están instaladas, la primera vez debes correr: install.packages("tidyverse")
+
+```{r}
+library(tidyverse)
+library(lubridate)
+
+
+
+# 2. Cargar los datos
+```
+
+
+datos_lluvia <- read_csv("data/precipitacion_sucre.csv")
+```{r}
+
+```
+
